@@ -1,6 +1,6 @@
 # FilmwebExporterV2
 
-Ulepszona [wersja FilmwebExportera od JSerwatki](https://github.com/JSerwatka/FilmwebExporter).
+Ulepszona wersja [FilmwebExportera od JSerwatki](https://github.com/JSerwatka/FilmwebExporter).
 
 - działa około 8–15 razy szybciej dzięki równoległemu pobieraniu wielu tytułów i danych `info` oraz `rating`
 - jest odporniejszy na błędy, bo ponawia nieudane zapytania i pojedynczy problem nie zatrzymuje całego eksportu
