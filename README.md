@@ -1,4 +1,12 @@
-# FilmwebExporter
+# FilmwebExporterV2
+
+Ulepszona [wersja FilmwebExportera od JSerwatki](https://github.com/JSerwatka/FilmwebExporter).
+
+- działa około 8–15 razy szybciej dzięki równoległemu pobieraniu wielu tytułów i danych `info` oraz `rating`
+- jest odporniejszy na błędy, bo ponawia nieudane zapytania i pojedynczy problem nie zatrzymuje całego eksportu
+- lepiej radzi sobie z limitami Filmwebu, zwłaszcza przy błędach `429` i `403`
+- poprawniej zapisuje CSV, w tym przecinki, cudzysłowy i inne nietypowe znaki w tytułach
+- daje lepszą diagnostykę, pokazując postęp, błędne tytuły, liczbę problemów i czas wykonania
 
 ## O projekcie
 
